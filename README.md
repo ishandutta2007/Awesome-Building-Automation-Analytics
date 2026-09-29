@@ -60,7 +60,7 @@ This repository tracks top-tier **SaaS platforms** and **open-source projects** 
 
 These open-source repos provide building operating systems, semantic metadata schemas, HVAC simulation tools, and reinforcement learning control frameworks for developers and researchers.
 
-| Repository | Stars ⭐ | Primary Tech Stack 🛠️ | Description & Key Use Cases 🚀 |
+| Repository | GitHub_Stars ⭐ | Primary Tech Stack 🛠️ | Description & Key Use Cases 🚀 |
 | :--- | :---: | :--- | :--- |
 | **[VOLTTRON](https://github.com/VOLTTRON/volttron)** | [![VOLTTRON Stars](https://img.shields.io/github/stars/VOLTTRON/volttron?style=social&color=white)](https://github.com/VOLTTRON/volttron/stargazers) | Python, ZeroMQ | Department of Energy (PNNL) open-source agent execution platform for building automation, microgrids, and IoT device integration. |
 | **[Brick Ontology](https://github.com/BrickSchema/Brick)** | [![Brick Schema Stars](https://img.shields.io/github/stars/BrickSchema/Brick?style=social&color=white)](https://github.com/BrickSchema/Brick/stargazers) | Python, RDF, Turtle | Universal metadata schema and ontology for modeling building assets, sensor points, HVAC relationships, and digital twins. |
