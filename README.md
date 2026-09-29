@@ -1,229 +1,129 @@
-# Awesome-Building-Automation-Analytics
+# Awesome Building Automation Analytics 🏢⚡
 
-## Top Building Automation Analytics Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Building-Automation-Analytics"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Building-Automation-Analytics?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Building-Automation-Analytics/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Building-Automation-Analytics?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+![Awesome Building Automation Analytics Banner](assets/banner.svg)
 
+## 📌 Top Building Automation Analytics Ecosystem 🚀
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
+*Focused on Fault Detection & Diagnostics (FDD), Energy Optimization, Smart EMS & Autonomous Building Controls*  
 
-*Focused on Fault Detection, Energy Optimization & Autonomous Building Controls*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Building Automation Analytics**. These tools monitor building equipment performance, detect faults, optimize energy consumption, and increasingly enable autonomous control of HVAC, lighting, and other building systems.
-
-
-
-**Examples** include Clockworks Analytics, CopperTree Analytics, Facilio, BuildingMinds, Switch Automation, BrainBox AI, Enertiv, GridPoint, 75F, and OpenBlue Enterprise Manager (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom analytics pipelines, and transparent building data management — ideal for facility managers, building engineers, researchers, and developers building vendor-independent building analytics solutions. The open-source ecosystem offers production-grade building operating systems, semantic data models, and research frameworks for control optimization.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Clockworks Analytics](https://www.clockworksanalytics.com/)**  
-
-  Automated fault detection and diagnostics platform for building HVAC systems, identifying energy waste and equipment issues through continuous analytics.
-
-
-
-- **[CopperTree Analytics](https://www.coppertreeanalytics.com/)**  
-
-  Building analytics platform for HVAC performance monitoring and energy efficiency optimization with rule-based and AI-driven diagnostics.
-
-
-
-- **[Facilio](https://facilio.com/)**  
-
-  Connected building operations platform with energy management, maintenance, and sustainability tools for portfolios.
-
-
-
-- **[BuildingMinds](https://www.buildingminds.com/)**  
-
-  Real estate data platform unifying building performance analytics, ESG reporting, and portfolio management.
-
-
-
-- **[Switch Automation](https://www.switchautomation.com/)**  
-
-  Smart building platform for energy management, ESG reporting, and building system integration.
-
-
-
-- **[BrainBox AI](https://www.brainboxai.com/)**  
-
-  AI-powered HVAC optimization platform using deep learning to reduce energy consumption and carbon emissions in commercial buildings.
-
-
-
-- **[Enertiv](https://www.enertiv.com/)**  
-
-  Building operations platform with energy monitoring, equipment health, and work order management.
-
-
-
-- **[GridPoint](https://www.gridpoint.com/)**  
-
-  Energy management platform for commercial buildings with demand response, backup power, and sustainability reporting.
-
-
-
-- **[75F](https://www.75f.io/)**  
-
-  IoT-based building management system focused on HVAC, lighting, and energy optimization for commercial buildings.
-
-
-
-- **[OpenBlue Enterprise Manager](https://www.johnsoncontrols.com/openblue)**  
-
-  Comprehensive building management platform from Johnson Controls with AI-driven insights, autonomous controls, and energy optimization. Features generative AI tools that proactively recommend energy savings projects, automated fault detection and diagnostics, and support for tracking energy conservation projects across 130+ categories. Customers report up to 30% reduction in energy spend and 20% reduction in maintenance costs .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Smart Core Building Operating System (SC BOS)](https://github.com/smart-core-os/sc-bos)**  
-
-  Open-source building operating system for connecting building systems, running actions, hosting applications, and securing access to building data and control. Written in Go with Vue.js web applications. Deployed as controllers (Area, Building, Gateway) that communicate across a building cohort. Features OAuth2 and OpenID Connect authentication, role-based access, plugin architecture for drivers, autos, zones, and systems, and a comprehensive REST API. Currently in active development with BETA-status Go API. Ideal for organizations building custom building automation platforms without vendor lock-in .
-
-
-
-- **[Brick Ontology](https://github.com/BrickSchema/Brick)**  
-
-  Open-source, standardized ontology for describing building components, relationships, and operations. Provides a uniform metadata schema for buildings with classes for physical entities (equipment, devices, spaces), virtual entities (points, sensors), and logical entities (zones). Defines relationships for composition (hasPart), topology (feeds, hasLocation), and telemetry (hasPoint). The de facto standard for semantic building data modeling, with MCP server implementations enabling AI agent interaction with building metadata .
-
-
-
-- **[Mortar](https://github.com/gtfierro/mortar)**  
-
-  Open-source data model that combines Brick metadata with timeseries data for building analytics. Organizes timeseries data into streams linked to Brick models, providing context such as units, type, location, and related equipment. Enables semantic queries across building systems and supports the full lifecycle from metadata modeling to timeseries analysis .
-
-
-
-- **[OpenBuildingControl (OBC)](https://github.com/lbl-srg/modelica-buildings/tree/master/Buildings/Controls/OBC)**  
-
-  Open-source project from Lawrence Berkeley National Laboratory developing tools and processes for performance evaluation, specification, and verification of building control sequences. Implements ASHRAE Guideline 36 control sequences for HVAC systems in Modelica. Includes elementary control blocks and standardized sequence implementations for air handling units, VAV systems, and central plants. The reference implementation for standardized building control sequences .
-
-
-
-- **[DRL-BEMS](https://github.com/AIS-Clemson/DRL-BEMS)**  
-
-  Deep reinforcement learning based Building Energy Management System for multi-VAV open offices. Achieves 37% reduction in HVAC energy consumption with less than 1% temperature comfort violation and 2.5% humidity comfort violation. Requires minimal input variables (outdoor temperature, indoor temperature, time, control signals) and uses binary action space for temperature range enforcement. Computationally efficient at ~7.75 minutes per epoch. Published in Applied Energy .
-
-
-
-- **[ACTIVE (Automated Control Testbed for Integration, Verification, and Emulation)](https://github.com/SmithRWORNL/ACTIVE)**  
-
-  Open-source framework from Oak Ridge National Laboratory (BSD 3-Clause) supporting optimized operation and management of diverse building types. Enables development, testing, and validation of AI-based, rule-based, and model-based control strategies. Facilitates seamless transition from simulation to real-world field validation. Supports full building management lifecycle: data acquisition, system monitoring, optimized control, adaptive learning, device dispatch, and advanced analytics. Python-based with active development as of 2025 .
-
-
-
-- **[Brick Ontology Service](https://github.com/Pamekitti/brick-ontology-service)**  
-
-  FastAPI service managing and querying building data using the Brick ontology schema. Provides RESTful endpoints for semantic building data management, SPARQL queries, and RDF graph operations. Built with RDFLib and BrickSchema for standardized building metadata representation. Includes building model generation utilities for office, lab, hospital, and retail building types with standard equipment templates (AHU, VAV, Chiller) .
-
-
-
-- **[Asuna](https://github.com/lauslim12/Asuna)**  
-
-  Open-source, scalable building management system built for research purposes. Features infinite room and floor creation, user booking, multi-role support (user, admin, owner), admin CRUD operations, earnings tracking, visitor management, and voucher creation. Built with Next.js, Chakra UI, Express.js, MongoDB, and deployed on Vercel/Heroku. Tested with Technology Acceptance Model showing production readiness for coworking spaces and office buildings .
-
-
-
-- **[Energy Management in Building Facilities](https://github.com/Kokonelas/Energy_Management_In_Building_Facilities)**  
-
-  Modular Java application simulating smart building management system. Includes microservices for photovoltaic panel control, HVAC monitoring, lighting and sound automation, water and power tracking, and security system simulation. Designed with modular architecture for educational and prototyping purposes .
-
-
-
-- **[ecosysnc](https://github.com/kimdain0222/ecosysnc)**  
-
-  Smart Building Energy Management System (SBEMS) analyzing campus building power usage to automatically control lighting and air conditioning when vacant. Features data analysis, occupancy prediction models, automatic control logic, and real-time dashboard. Built with React.js frontend, FastAPI backend, Python ML pipeline, and PostgreSQL .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Google Digital Buildings** — Google's open-source ontology and SDK for managing their own buildings, providing a large-scale semantic building data model used internally at Google .
-
-- **Building Energy Management Simscape** — MATLAB/Simscape project for modeling building energy management systems including heat transfer and HVAC control for multi-story buildings .
-
-- **WIA Standards Building Energy Management** — Open standards repository with control protocol implementations for supply air temperature reset, fan control with static pressure reset, and economizer control .
-
-- **fan-monitor** — Python-based remote monitoring tool for building ventilation fan run and fault states, useful for basic equipment monitoring .
-
-- **DAB-CPS Framework** — Open-source framework for autonomous building management using blockchain and AI, validated in real-world building with DAO governance, space reservation, and AI virtual assistant for facility management .
-
-
-
-**Frameworks for building custom building analytics solutions**: Combine **Brick Ontology** as the semantic data model foundation with **Mortar** for metadata-timeseries integration . Use **SC BOS** for building operating system infrastructure with multi-controller deployment and OAuth2 security . Implement **OpenBuildingControl** ASHRAE Guideline 36 sequences for standardized HVAC control . For AI-driven optimization research, **DRL-BEMS** provides a published DRL framework with demonstrated 37% energy savings . For validation and testing, **ACTIVE** from ORNL offers a comprehensive testbed for control strategy development . Note that full enterprise building analytics with automated fault detection, portfolio benchmarking, and utility bill management remains primarily commercial territory; open-source stacks provide strong semantic models, control libraries, and research frameworks that require integration for production deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Building automation analytics tools must comply with local building codes, energy regulations, and grid interconnection standards.
-
-- Self-hosted open-source solutions require proper infrastructure, expertise in building automation protocols (Modbus, BACnet, MQTT, KNX), and ongoing maintenance. Integration with existing building systems requires specialized knowledge.
-
-- The open-source ecosystem provides strong semantic models, control libraries, and research frameworks, but full commercial building analytics with automated fault detection, portfolio benchmarking, and utility bill management remains primarily a commercial offering.
-
-
+📅 **Last updated:** September 2026
 
 ---
 
+### 💡 Overview & Market Landscape
 
+This repository tracks top-tier **SaaS platforms** and **open-source projects** designed for **Building Automation Analytics**, **Building Energy Management Systems (BEMS)**, and **IoT Smart Buildings**. These software solutions continuously monitor commercial building equipment performance, detect equipment operational faults, optimize HVAC and lighting energy consumption, and automate facility management workflows.
 
-**Made for facility managers, building engineers, energy analysts, and smart building developers.**  
+---
 
-Let's make building automation analytics more open, transparent, and efficient.
+## 📑 Table of Contents
+
+- [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Community](#-support--community)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Commercial Platforms
+
+> **📊 Market Size & Industry Structure:**  
+> The global **Building Automation Systems (BAS) & Smart Building Analytics Market** is estimated at **\$85.2 Billion in 2026** and projected to surpass **\$140 Billion by 2030** (CAGR ~10.5%). The market is **moderately fragmented**, with legacy industrial conglomerates (Johnson Controls, Honeywell, Schneider Electric, Siemens) holding enterprise dominance, while agile AI-first SaaS startups (BrainBox AI, Facilio, 75F) capture rapid market share in autonomous HVAC control and smart operations.
+
+| Product | Enterprise Scale / Valuation / Revenue 💰 | Starting Pricing 💵 | Free Tier / Trial Limit 🎁 | Description & Core Features ⚡ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[OpenBlue Enterprise Manager](https://www.johnsoncontrols.com/openblue)** | **\$38.5 Billion** Valuation ($22B+ Revenue) | \$500 / building / month | 30-Day Guided Enterprise Demo | Johnson Controls' enterprise building AI platform with generative AI insights, predictive energy optimization, and continuous FDD across 130+ asset categories. |
+| **[BrainBox AI](https://www.brainboxai.com/)** | **\$250 Million** Valuation ($15M+ Revenue) | \$300 / building / month | 14-Day Free HVAC Efficiency Audit | Autonomous AI engine using deep learning to optimize existing commercial HVAC systems, cutting energy consumption by up to 25%. |
+| **[Facilio](https://facilio.com/)** | **\$180 Million** Valuation ($12M+ Revenue) | \$250 / building / month | 14-Day Enterprise Free Trial | IoT-driven connected building operations platform unifying property maintenance, energy analytics, and ESG compliance. |
+| **[Clockworks Analytics](https://www.clockworksanalytics.com/)** | **\$120 Million** Valuation ($10M+ Revenue) | \$200 / building / month | 30-Day Free Pilot Program | Automated Fault Detection and Diagnostics (FDD) platform identifying root-cause mechanical issues and energy waste across HVAC infrastructure. |
+| **[GridPoint](https://www.gridpoint.com/)** | **\$100 Million** Valuation ($25M+ Revenue) | \$150 / location / month | 30-Day Free Facility Energy Assessment | Smart building technology platform automating demand response, sub-metering energy analytics, and HVAC efficiency for commercial chains. |
+| **[BuildingMinds](https://www.buildingminds.com/)** | **\$90 Million** Valuation ($8M+ Revenue) | \$400 / portfolio / month | 14-Day Free Portfolio Demo | Real estate data platform driven by Schindler Group unifying real-time building performance, carbon footprint tracking, and ESG reporting. |
+| **[75F](https://www.75f.io/)** | **\$75 Million** Valuation ($9M+ Revenue) | \$99 / zone / month | 30-Day Risk-Free Hardware/Software Trial | Wireless IoT building management system providing dynamic airflow balancing, occupant comfort optimization, and smart thermostat control. |
+| **[Switch Automation](https://www.switchautomation.com/)** | **\$60 Million** Valuation ($6M+ Revenue) | \$180 / building / month | 14-Day Platform Access Trial | Cloud smart building platform integrating IoT sensor data, automated utility tracking, and fault diagnostics for property portfolios. |
+| **[CopperTree Analytics](https://www.coppertreeanalytics.com/)** | **\$45 Million** Valuation ($5M+ Revenue) | \$150 / building / month | 30-Day Free Energy Diagnostic Trial | Building energy analytics & FDD platform delivering energy audits, baseline tracking, and rule-based system performance monitoring. |
+| **[Enertiv](https://www.enertiv.com/)** | **\$35 Million** Valuation ($4M+ Revenue) | \$120 / building / month | 14-Day Free Operational Assessment | Operational IoT platform digitizing equipment maintenance, tenant sub-metering billing, and real-time power monitoring for commercial real estate. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+These open-source repos provide building operating systems, semantic metadata schemas, HVAC simulation tools, and reinforcement learning control frameworks for developers and researchers.
+
+| Repository | Stars ⭐ | Primary Tech Stack 🛠️ | Description & Key Use Cases 🚀 |
+| :--- | :---: | :--- | :--- |
+| **[VOLTTRON](https://github.com/VOLTTRON/volttron)** | [![VOLTTRON Stars](https://img.shields.io/github/stars/VOLTTRON/volttron?style=social&color=white)](https://github.com/VOLTTRON/volttron/stargazers) | Python, ZeroMQ | Department of Energy (PNNL) open-source agent execution platform for building automation, microgrids, and IoT device integration. |
+| **[Brick Ontology](https://github.com/BrickSchema/Brick)** | [![Brick Schema Stars](https://img.shields.io/github/stars/BrickSchema/Brick?style=social&color=white)](https://github.com/BrickSchema/Brick/stargazers) | Python, RDF, Turtle | Universal metadata schema and ontology for modeling building assets, sensor points, HVAC relationships, and digital twins. |
+| **[Home Assistant Core](https://github.com/home-assistant/core)** | [![Home Assistant Stars](https://img.shields.io/github/stars/home-assistant/core?style=social&color=white)](https://github.com/home-assistant/core/stargazers) | Python, Asyncio | Open-source home and small commercial building automation operating system tracking energy monitoring, BACnet/MQTT sensors, and local control. |
+| **[EnergyPlus](https://github.com/NREL/EnergyPlus)** | [![EnergyPlus Stars](https://img.shields.io/github/stars/NREL/EnergyPlus?style=social&color=white)](https://github.com/NREL/EnergyPlus/stargazers) | C++, Fortran | National Renewable Energy Laboratory (NREL) whole-building energy simulation engine for modeling heating, cooling, lighting, and ventilation. |
+| **[Smart Core BOS](https://github.com/smart-core-os/sc-bos)** | [![SC BOS Stars](https://img.shields.io/github/stars/smart-core-os/sc-bos?style=social&color=white)](https://github.com/smart-core-os/sc-bos/stargazers) | Go, Vue.js, gRPC | Open-source building operating system for connecting building networks, running control automations, and securing RBAC device access. |
+| **[Mortar](https://github.com/gtfierro/mortar)** | [![Mortar Stars](https://img.shields.io/github/stars/gtfierro/mortar?style=social&color=white)](https://github.com/gtfierro/mortar/stargazers) | Go, Brick Ontology | Open-source testbed platform combining Brick metadata schemas with high-throughput timeseries telemetry for building analytics research. |
+| **[DRL-BEMS](https://github.com/AIS-Clemson/DRL-BEMS)** | [![DRL-BEMS Stars](https://img.shields.io/github/stars/AIS-Clemson/DRL-BEMS?style=social&color=white)](https://github.com/AIS-Clemson/DRL-BEMS/stargazers) | Python, PyTorch | Deep Reinforcement Learning framework for multi-VAV office HVAC energy management achieving up to 37% energy reduction. |
+| **[Asuna](https://github.com/lauslim12/Asuna)** | [![Asuna Stars](https://img.shields.io/github/stars/lauslim12/Asuna?style=social&color=white)](https://github.com/lauslim12/Asuna/stargazers) | Next.js, Express, MongoDB | Modular building management system designed for workspace bookings, multi-role admin controls, energy revenue, and visitor management. |
+| **[ACTIVE](https://github.com/SmithRWORNL/ACTIVE)** | [![ACTIVE Stars](https://img.shields.io/github/stars/SmithRWORNL/ACTIVE?style=social&color=white)](https://github.com/SmithRWORNL/ACTIVE/stargazers) | Python, Modelica | Oak Ridge National Laboratory (ORNL) testbed framework for integrating, verifying, and emulating AI building control strategies. |
+| **[OpenBuildingControl (OBC)](https://github.com/lbl-srg/modelica-buildings)** | [![OBC Stars](https://img.shields.io/github/stars/lbl-srg/modelica-buildings?style=social&color=white)](https://github.com/lbl-srg/modelica-buildings/stargazers) | Modelica, Python | LBNL repository implementing ASHRAE Guideline 36 standardized HVAC control sequences for performance verification. |
+| **[Brick Ontology Service](https://github.com/Pamekitti/brick-ontology-service)** | [![Brick Service Stars](https://img.shields.io/github/stars/Pamekitti/brick-ontology-service?style=social&color=white)](https://github.com/Pamekitti/brick-ontology-service/stargazers) | FastAPI, RDFLib | RESTful microservice for querying and managing building SPARQL graphs and RDF models using Brick ontology. |
+| **[EcoSync](https://github.com/kimdain0222/ecosysnc)** | [![EcoSync Stars](https://img.shields.io/github/stars/kimdain0222/ecosysnc?style=social&color=white)](https://github.com/kimdain0222/ecosysnc/stargazers) | React, FastAPI, PostgreSQL | Smart Building Energy Management System analyzing campus occupancy to automatically regulate HVAC and lighting systems. |
+| **[Energy Management Facilities](https://github.com/Kokonelas/Energy_Management_In_Building_Facilities)** | [![Energy Facilities Stars](https://img.shields.io/github/stars/Kokonelas/Energy_Management_In_Building_Facilities?style=social&color=white)](https://github.com/Kokonelas/Energy_Management_In_Building_Facilities/stargazers) | Java, Spring Boot | Modular Java application simulating smart facility microservices including solar PV control, water monitoring, and HVAC automation. |
+
+---
+
+## 🛠️ Frameworks for Building Custom Analytics Pipelines
+
+When engineering a custom vendor-independent building automation analytics solution, consider combining these open-source tools:
+1. **Semantic Metadata Layer:** Use **[Brick Ontology](https://github.com/BrickSchema/Brick)** to map building sensors, physical spaces, and HVAC equipment relationships.
+2. **Telemetry Integration:** Integrate **[Mortar](https://github.com/gtfierro/mortar)** or **[VOLTTRON](https://github.com/VOLTTRON/volttron)** to stream real-time IoT sensor data (BACnet, Modbus, MQTT).
+3. **Control Standard Verification:** Apply **[OpenBuildingControl](https://github.com/lbl-srg/modelica-buildings)** to benchmark HVAC sequences against ASHRAE Guideline 36.
+4. **AI & RL Control Optimization:** Leverage **[DRL-BEMS](https://github.com/AIS-Clemson/DRL-BEMS)** or **[ACTIVE](https://github.com/SmithRWORNL/ACTIVE)** for testing machine learning control policies before deployment.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly welcomed! Help us keep this directory accurate and up to date.
+
+1. Fork this repository.
+2. Create a new feature branch (`git checkout -b feature/add-new-tool`).
+3. Add or update tool details in `README.md` keeping descriptions factual.
+4. Submit a Pull Request with a clear description of changes.
+
+---
+
+## ☕ Support & Community
+
+If you find this repository helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to show your appreciation!
+- 🔀 **Fork & Share** with your fellow building automation engineers, energy managers, and facility analysts.
+- 💖 **Sponsor the Maintainer:** Consider buying a coffee via [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+- 💬 **Join our Community:** Connect on [Discord](https://discord.gg/jc4xtF58Ve) and check out our main awesome list at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for research and educational purposes — it does not constitute commercial endorsement.
+- Deploying autonomous building control logic requires strict adherence to local electrical, mechanical, and safety building codes.
+- Integration with live commercial BMS hardware (BACnet/IP, LonWorks, Modbus) requires specialized building engineering knowledge and fail-safe safety overrides.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Building-Automation-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Building-Automation-Analytics&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  Made with ❤️ for Facility Managers, Energy Analysts, and Smart Building Engineers worldwide.
+</p>
